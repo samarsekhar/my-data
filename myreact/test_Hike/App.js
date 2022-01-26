@@ -1,11 +1,10 @@
 import React from "react";
-import Hikee from "./Hikee/Hikee";
-
+import Hike from "./Hike/Hike";
 
 function App() {
     return (
         <div>
-            <Hikee />
+            <Hike />
         </div>
     )
 }

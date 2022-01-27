@@ -1,10 +1,10 @@
 import React from "react";
-import CompA from "./Props/CompA"
+import Comp1 from "../myreact/Details/PropsEx1/Comp1";
 
 let App = () => {
     return (
         <div>
-            <CompA />
+            <Comp1 />
         </div>
     )
 }

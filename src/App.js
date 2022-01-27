@@ -1,9 +1,10 @@
 import React from "react";
+import CompA from "./Props/CompA"
 
-function App() {
+let App = () => {
     return (
         <div>
-
+            <CompA />
         </div>
     )
 }

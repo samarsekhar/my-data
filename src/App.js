@@ -1,10 +1,10 @@
 import React from "react";
-import Product2 from "../myreact/test4/ProductEx/Product2";
+import Hike2 from "../myreact/HikeEx2/Hike2/Hike2";
 
 function App() {
     return (
         <>
-            <Product2 />
+            <Hike2 />
         </>
     )
 }

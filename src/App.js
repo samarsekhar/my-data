@@ -1,11 +1,11 @@
 import React from "react";
-import Comp1 from "../myreact/Details/PropsEx1/Comp1";
+import Prop1 from "./PropsEx2/Prop1";
 
-let App = () => {
+function App() {
     return (
-        <div>
-            <Comp1 />
-        </div>
+        <>
+            <Prop1 />
+        </>
     )
 }
 export default App;

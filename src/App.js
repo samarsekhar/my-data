@@ -1,10 +1,10 @@
 import React from "react";
-import Prop1 from "./PropsEx2/Prop1";
+import Product2 from "../myreact/test4/ProductEx/Product2";
 
 function App() {
     return (
         <>
-            <Prop1 />
+            <Product2 />
         </>
     )
 }

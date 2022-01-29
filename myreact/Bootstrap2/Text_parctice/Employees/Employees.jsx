@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-class Employee2 extends Component {
-    emplyoee_data = [
+class Employees extends Component {
+    employee_Data = [
         { id: 701, name: "Abisekh", email: "Abi@gmail.com" },
         { id: 702, name: "Priyanka", email: "Priya@gmail.com" },
         { id: 703, name: "Salman", email: "Sal@gmail.com" },
@@ -12,7 +12,7 @@ class Employee2 extends Component {
     render() {
         return (
             <React.Fragment>
-                <div className="container mt-5">
+                <div className="container mt-3">
                     <div className="row">
                         <div className="col-md-10">
                             <table className="table table-danger">
@@ -21,7 +21,7 @@ class Employee2 extends Component {
                                     <th>Name</th>
                                     <th>Email</th>
                                 </thead>
-                                <tbody>{this.emplyoee_data.map((emp) => {
+                                <tbody>{this.employee_Data.map((emp) => {
                                     return <tr>
                                         <td>{emp.id}</td>
                                         <td>{emp.name}</td>
@@ -37,4 +37,4 @@ class Employee2 extends Component {
         )
     }
 }
-export default Employee2;
+export default Employees;

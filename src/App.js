@@ -1,9 +1,9 @@
 import React from "react";
-import Employee2 from "./Employee2/Employee2";
+import Employees from "../myreact/Bootstrap2/Text_parctice/Employees/Employees";
 function App() {
     return (
         <>
-            <Employee2 />
+            <Employees />
         </>
     )
 }

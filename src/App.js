@@ -1,9 +1,10 @@
 import React from "react";
-import Employees from "../myreact/Bootstrap2/Text_parctice/Employees/Employees";
+import Regitraction from "../myreact/Regitraction/Test_1/Regitraction/Regitraction";
+
 function App() {
     return (
         <>
-            <Employees />
+            <Regitraction />
         </>
     )
 }

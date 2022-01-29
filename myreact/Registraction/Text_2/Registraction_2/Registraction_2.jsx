@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-class Regitraction extends Component {
+class Registraction_2 extends Component {
     state = {
         username: ""
     }
@@ -11,19 +11,19 @@ class Regitraction extends Component {
     render() {
         return (
             <div>
-                <h1>Regitraction Form</h1>
+                <h1>Registraction Form</h1>
+                <pre>{JSON.stringify(this.state)}</pre>
                 <form>
-                    <pre>{JSON.stringify(this.state)}</pre>
                     <label>Email</label>
-                    <input type="text" onChange={this.usernameHandler} placeholder="Enter Email" />
+                    <input type="text" onChange={this.usernameHandler} placeholder="Please Enter Email" />
                     <hr />
                     <label>Password</label>
-                    <input type="password" onChange={this.usernameHandler} placeholder="Enter Password" />
+                    <input type="password" onChange={this.usernameHandler} placeholder="Please Enter Password" />
                     <hr />
-                    <button>Regitraction</button>
+                    <button>Registraction</button>
                 </form>
             </div>
         )
     }
 }
-export default Regitraction;
+export default Registraction_2;

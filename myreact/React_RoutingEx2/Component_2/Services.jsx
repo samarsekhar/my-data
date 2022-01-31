@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-class Contact extends Component {
+class Services extends Component {
     render() {
         return (
             <div>
-                <h1>Contact Us- Component</h1>
+                <h1>Services - Component</h1>
             </div>
         );
     };
 };
-export default Contact;
+export default Services;

@@ -1,27 +1,30 @@
-import React from "react";
+import React, { Component } from "react";
 import Axios from "axios";
-class User extends React.Component {
-    state = {
-        user: []
+class UserLifeCycle extends Component {
+    constructor(props) {
+        super(props);
+        console.log("First - Constructor");
+        this.state = {
+            user: []
+        }
     }
-    getData_Handler = () => {
-        Axios.get("https://jsonplaceholder.typicode.com/users")
+    componentDidMount() {
+        Axios.get('https://jsonplaceholder.typicode.com/users')
             .then((response) => {
                 this.setState({ user: response.data })
             })
             .catch()
     }
     render() {
-        console.log("Second Render Method");
+        console.log("Second - render");
         return <React.Fragment>
-            <h1>User Data</h1>
-            <pre>{JSON.stringify(this.state.user)}</pre>
-            <button onClick={this.getData_Handler}> Get Data </button>
-            <div className="container">
+            <h1>Get Data</h1>
+            <pre>{JSON.stringify(this.state)}</pre>
+            <div className="container mt-5">
                 <div className="row">
                     <div className="col-md-8">
-                        <table className="table table-success">
-                            <thead className="bg-hover">
+                        <table className="table table-hover">
+                            <thead className="bg-dark text-white">
                                 <tr>
                                     <th>ID</th>
                                     <th>Name</th>
@@ -29,7 +32,7 @@ class User extends React.Component {
                                 </tr>
                             </thead>
                             <tbody>
-                                {this.state.user.map((singleUser) = () => {
+                                {this.state.user.map((singleUser) => {
                                     return <tr>
                                         <td>{singleUser.id}</td>
                                         <td>{singleUser.name}</td>
@@ -44,4 +47,4 @@ class User extends React.Component {
         </React.Fragment>
     };
 };
-export default User;
+export default UserLifeCycle;

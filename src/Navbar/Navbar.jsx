@@ -8,7 +8,7 @@ class Navbar extends Component {
                 <div className="collapase navbar-collapase">
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item">
-                            <Link to="contactapp" className="nav-link" >ContactApp</Link>
+                            <Link to="/" className="nav-link" ></Link>
                         </li>
                     </ul>
                 </div>

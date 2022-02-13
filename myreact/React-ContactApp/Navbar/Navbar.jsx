@@ -12,9 +12,6 @@ class Navbar extends Component {
                             <li className="nav-item">
                                 <Link to="contactapp" className="nav-link">Contacts</Link>
                             </li>
-                            <li className="nav-item">
-                                <Link to="user" className="nav-link" > User</Link>
-                            </li>
                         </ul>
                     </div>
                 </nav>

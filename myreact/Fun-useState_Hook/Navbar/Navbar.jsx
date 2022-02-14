@@ -12,6 +12,9 @@ class Navbar extends Component {
                             <li className="nav-item">
                                 <Link to="message" className="nav-link">Message</Link>
                             </li>
+                            <li className="nav-item">
+                                <Link to="Counter" className="nav-link">Counter</Link>
+                            </li>
                         </ul>
                     </div>
                 </nav>

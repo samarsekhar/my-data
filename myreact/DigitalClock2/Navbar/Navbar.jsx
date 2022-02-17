@@ -3,7 +3,7 @@ let Navbar = () => {
     return (
         <>
             <nav className="navbar navbar-light bg-danger navbar-expand-lg">
-                <Link className="navbar-brand" to="home" >React rudex</Link>
+                <Link className="navbar-brand" to="home" >React Life Cycle Methods</Link>
 
                 <button
                     className="navbar-toggler"
@@ -20,7 +20,7 @@ let Navbar = () => {
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <Link className="nav-link" to="home" > </Link>
+                            <Link className="nav-link" to="time" > Digital </Link>
                         </li>
                     </ul>
                 </div>

@@ -10,10 +10,10 @@ function Navbar() {
                 <div className="ml-auto">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <Link className="nav-link" to="postform" > Post Form </Link>
+                            <Link className="nav-link" to="post" > Post </Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="postlist" >Post List</Link>
+                            <Link className="nav-link" to="car"> Car </Link>
                         </li>
                     </ul>
                 </div>

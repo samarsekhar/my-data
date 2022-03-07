@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Car from "./CarEx/Car";
 import Navbar from "./Navbar/Navbar";
-import PostForm from "./PostForm/PostForm";
-import PostList from "./PostForm/PostList";
+import PostApi from "./PostApi/PostApi";
 
 function App() {
     return (
@@ -10,8 +10,8 @@ function App() {
             <Router>
                 <Navbar />
                 <Routes>
-                    <Route path="/postform" element={<PostForm />} />
-                    <Route path="/postlist" element={<PostList />} />
+                    <Route path="/post" element={<PostApi />} />
+                    <Route path="/car" element={<Car />} />
                 </Routes>
             </Router>
         </>
